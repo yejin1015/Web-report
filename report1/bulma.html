@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자기소개 페이지</title>
+    <!-- Bulma CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <style>
+        /* 추가적인 스타일 */
+        .hero-body {
+            background: linear-gradient(135deg, #6e7e85, #4b5c65);
+            color: white;
+        }
+        .card-image img {
+            border-radius: 50%;
+            margin: 0 auto;
+        }
+        .card {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .card-header {
+            background-color: #4b5c65;
+            color: white;
+        }
+        .footer {
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 헤더 -->
+    <section class="hero is-medium">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title is-1">안녕하세요! 저는 경성대 소프트웨어학과 학생입니다.</h1>
+                <h2 class="subtitle is-3">2023864032 양예진</h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- 본문 -->
+    <div class="container">
+        <div class="columns is-centered mt-6">
+            <div class="column is-half">
+                <!-- 프로필 카드 -->
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-128x128">
+                            <img src="image9.jpg" alt="Profile Picture">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="title is-4">이름: 양예진</h3>
+                        <p>안녕하세요! 저는 소프트웨어와 프로그래밍을 사랑하는 학생입니다. 새로운 기술을 배우는 것을 좋아하고, 문제를 해결하는 데 재미를 느낍니다. 더 나은 개발자가 되기 위해 항상 노력 중이에요!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 기술 섹션 -->
+        <section class="section">
+            <h2 class="title is-3 has-text-centered">Skills</h2>
+            <div class="columns is-multiline">
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-header">
+                            <p class="card-header-title">Java</p>
+                        </div>
+                        <div class="card-content">
+                            <p>객체지향 언어로, 웹 애플리케이션 및 알고리즘 구현에 사용됩니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-header">
+                            <p class="card-header-title">Python</p>
+                        </div>
+                        <div class="card-content">
+                            <p>데이터 분석과 머신러닝을 위한 언어로, 다양한 분야에서 활용 가능합니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-header">
+                            <p class="card-header-title">Web Development</p>
+                        </div>
+                        <div class="card-content">
+                            <p>HTML, CSS, JavaScript로 웹 페이지를 만들고 유지보수하는 능력을 가지고 있습니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 연락처 섹션 -->
+        <section id="contact" class="section">
+            <h2 class="title is-3 has-text-centered">Contact</h2>
+            <p class="has-text-centered">이메일: <a href="gin101538@gmail.com">gin101538@gmail.com</a></p>
+            <p class="has-text-centered">GitHub: <a href="https://github.com/yejin1015" class="button is-link is-outlined" target="_blank">github.com/yejin1015</a></p>
+        </section>
+    </div>
+
+    <!-- 푸터 -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>© 2024 by 양예진. Proudly created for my personal portfolio.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

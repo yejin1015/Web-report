@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자기소개 페이지</title>
+    <!-- Foundation CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css">
+    <style>
+        .hero {
+            background: linear-gradient(135deg, #1d3557, #457b9d);
+            color: white;
+            padding: 50px 0;
+        }
+        .profile-img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin: 0 auto;
+        }
+        .card-header {
+            background-color: #457b9d;
+            color: white;
+        }
+        .footer {
+            background-color: #f1f1f1;
+            padding: 20px 0;
+        }
+        .footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 헤더 -->
+    <section class="hero">
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x align-middle">
+                <div class="cell large-12 text-center">
+                    <h1 class="display-2">안녕하세요! 저는 경성대 소프트웨어학과 학생입니다.</h1>
+                    <p class="lead">2023864032 양예진</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 본문 -->
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x">
+            <div class="cell large-4 text-center">
+                <!-- 프로필 이미지 -->
+                <img src="image9.jpg" alt="Profile Picture" class="profile-img">
+                <h3>양예진</h3>
+                <p>소프트웨어 개발을 사랑하는 학생입니다. 더 나은 개발자가 되기 위해 노력하고 있어요.</p>
+            </div>
+
+            <div class="cell large-8">
+                <!-- About Me 섹션 -->
+                <h2>About Me</h2>
+                <p>저는 소프트웨어와 프로그래밍에 열정을 가진 학생입니다. 특히 인공지능과 소프트웨어 개발에 관심이 많고, 더 나은 개발자로 성장하기 위해 노력하고 있어요.</p>
+
+                <!-- Skills 섹션 -->
+                <h3>Skills</h3>
+                <div class="grid-x grid-padding-x">
+                    <div class="cell small-12 medium-4">
+                        <div class="card">
+                            <div class="card-divider card-header">Java</div>
+                            <div class="card-section">
+                                <p>객체지향 프로그래밍 언어로, 웹 애플리케이션 및 알고리즘 구현에 능숙합니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cell small-12 medium-4">
+                        <div class="card">
+                            <div class="card-divider card-header">Python</div>
+                            <div class="card-section">
+                                <p>데이터 분석 및 머신러닝 프로젝트에 활용되고 있습니다. 빠르게 배우고 있습니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cell small-12 medium-4">
+                        <div class="card">
+                            <div class="card-divider card-header">Web Development</div>
+                            <div class="card-section">
+                                <p>HTML, CSS, JavaScript를 이용한 웹 페이지 제작에 능숙합니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 연락처 섹션 -->
+        <div class="grid-x grid-padding-x">
+            <div class="cell large-12 text-center">
+                <h2>Contact</h2>
+                <p>이메일: <a href="mailto:gin101538@gmail.com">gin101538@gmail.com</a></p>
+                <p>GitHub: <a href="https://github.com/yejin1015" class="button primary" target="_blank">github.com/yejin1015</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 푸터 -->
+    <footer class="footer">
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x text-center">
+                <div class="cell large-12">
+                    <p>© 2024 by 양예진. Proudly created for my personal portfolio.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Foundation JS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+</body>
+</html>
